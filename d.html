@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('bj.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      width: 200px;
+      height: 200px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="tx.jpg">
+    <h1>Jack's Resume</h1>
+    <ul>
+      <li><a href="https://github.com/Wooooohh">Github</a></li>
+      <li><a href="https://juejin.im/user/5db50e0ff265da4d310736be">Blog</a></li>
+      <!-- <li><a href="#">Worst Poems</a></li> -->
+    </ul>
+  </header>
+  <article>
+    <h2>专业技能</h2>
+    <p>熟练掌握Eclipse / IDEA、Git、Maven等开发及版本控制工具，熟练掌握java基础技术jsp、Servlet编程规范、jdbc、 thymeleaf模板引擎的基本使用，掌握Web应用系统开发，具备独立开发能力； <br> 熟悉JVM基本的参数调优、垃圾回收机制原理、代码执行过程的基本原理，具有一定的性能检测工具JProfile和压力测试工具 JMeter的使用经验； <br> 熟悉面向对象设计原则和常用的设计模式（代理、单例、工厂、建造者、观察者、策略、装饰器等），以及反射、自定义注 解、泛型等； 具有一定的Tomcat/Nginx服务器的使用经验，部署过运行于Nginx+Docker上的Springboot项目镜像，熟练使用Mysql关系 型数据库，熟悉基本的mysql数据库性能优化，使用过elasticSearch+logstash+kibana实现日志分析以及 Oracle、SQL Server； <br> 熟练使用非关系型数据库redis，熟悉其5种基本数据结构底层实现原理，底层通信模型，对其分布式有一定了解；</p>
+  </article>
+  <article>
+    <h2>工作经历</h2>
+    <h3>东方海外货柜航运(中国)有限公司</h3>
+    <p>
+    参与运维工作： 主要参与基于Azure（IaaS）+PCF（PaaS）的云计算平台基础资源管理系统，负责公司计算机资源的管理和搭建，如虚拟机、 网关、防火墙、solace（消息队列）资源等。 编写python爬虫脚本对数据接口进行数据获取并进行整合，学习相关知识并协助正式员工完成日常的运维任务。<br>参与轮船信息实时展示系统开发： 前端基于vue+ElementUI，后端基于SpringBoot+quartz作业调度框架+mongodb数据库+WebSocket 负责编写后台代码，实现获取实时不同api数据进行统一分析并传输到前端，前端进行展示 参与区块链下游业务项目开发： 后端基于SpringBoot、Apache camel、Spring 负责编写业务接口，编写数据转换器，访问外部接口，进行中间实体储存</p>
+  </article>
+  <article>
+    <h2>项目经历</h2>
+    <h3>人力资源管理系统     2019年6月 - 2020年6月</h3>
+    <p>基于spring+springMVC+Mybatis+layui+Vue.js 实现对员工生命周期的管理，请假、离职等功能，并提供对于转出、辞职、辞退、退休员工信息的管理，以及员工权限管理， 按照一定的条件，查询、统计符合条件的员工信息，如详细信息的查询、按婚姻状况查询、按学历查询、按工作岗位查询等
+    <h3>商城(微服务架构） 2019年12月 - 2020年2月</h3> 
+    前端基于vue+ElementUI 后端基于SpringBoot集成Dubbo，加上redis+mysql+zookeeper+mybatis+rabbitMQ 实现首页渲染，商品查询、商品展示、商品详情、个人中心、用户注册、个人信息修改、收获地址维护、购物车、订单查询、 下单、支付等功能</p>
+  </article>
+<!--   <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script> -->
+</body>
